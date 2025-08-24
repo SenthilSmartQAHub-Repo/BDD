@@ -2,19 +2,19 @@
   "default": {
     "require": [
       "src/steps/*.ts",
-        "src/*/*.ts"
+      "src/*/*.ts"
     ],
     "paths": [
       "src/features/*.feature"
     ],
-      "requireModule": ["ts-node/register"],
+    "requireModule": ["ts-node/register"],
     "format": [
-   "html:reports/cucumber-report.html",
-  "json:reports/cucumber-report.json"
-  
-],
+      "html:reports/cucumber-report.html",
+      "json:reports/cucumber-report.json",
+      "allure-cucumberjs/reporter"
+    ],
     "publish": true,
     "parallel": 2,
-     "tags": "@smoke"
+    "tags": "@smoke"
   }
 }
