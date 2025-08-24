@@ -4,7 +4,7 @@ import { chromium } from '@playwright/test';
 import { CustomWorld } from './world';
 
 Before(async function (this: CustomWorld) {
-  this.browser = await chromium.launch({ headless: false }); // change to true for headless
+  this.browser = await chromium.launch({ headless: true }); // change to true for headless
   this.page = await this.browser.newPage();
 });
 

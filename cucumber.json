@@ -9,7 +9,7 @@
     ],
       "requireModule": ["ts-node/register"],
     "format": [
-"html:reports/cucumber-report.html",
+   "html:reports/cucumber-report.html",
   "json:reports/cucumber-report.json"
   
 ],
