@@ -1,0 +1,202 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-feature;login-to-the-banking-application",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "login to the Banking application",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3534149099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I go to \"https://playwrightautomationtesting.blogspot.com/2025/06/banking-application.html\"",
+            "match": {
+              "location": "src\\steps\\login.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21015052899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter the username \"SenthilSmartQAHub\"",
+            "match": {
+              "location": "src\\steps\\login.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2409357700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I enter the password \"demo\"",
+            "match": {
+              "location": "src\\steps\\login.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2129017800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "click on login button",
+            "match": {
+              "location": "src\\steps\\login.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2137639599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 800946100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@positive",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;login-to-the-banking-application",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "login to the Banking application",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9118549199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I go to \"https://playwrightautomationtesting.blogspot.com/2025/06/banking-application.html\"",
+            "match": {
+              "location": "src\\steps\\login.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12816032799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I enter the username \"SenthilSmartQAHub\"",
+            "match": {
+              "location": "src\\steps\\login.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2162791199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I enter the password \"demo\"",
+            "match": {
+              "location": "src\\steps\\login.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2082243000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "click on login button",
+            "match": {
+              "location": "src\\steps\\login.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2110516199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1186394499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login Feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "src\\features\\login.feature"
+  }
+]

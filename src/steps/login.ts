@@ -19,7 +19,7 @@ When('I enter the password {string}', async function (this: CustomWorld, passwor
   await this.page.waitForTimeout(2000);
 });
 
-When('click on login button', async function (this: CustomWorld) {
+Given('click on login button', async function (this: CustomWorld) {
   await this.page.getByText("Login").last().click();
   await this.page.waitForTimeout(2000);
 });

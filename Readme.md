@@ -1,5 +1,5 @@
 
-
+npm init -y
 
 
 
