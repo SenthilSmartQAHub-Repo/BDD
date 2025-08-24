@@ -10,12 +10,12 @@ Open the HTML report =>  start reports/cucumber-report.html  /   open reports/cu
 
 
 Reporter:
-==============
+=========
 npm install --save-dev allure-cucumberjs allure-js-commons @cucumber/cucumber @cucumber/messages allure-commandline
 
 
-. Update cucumber.json
-========================
+ Update cucumber.json
+=====================
 
 
 {
@@ -46,4 +46,8 @@ npx cucumber-js
 Generate & View Allure Report
 =============================
 npx allure generate allure-results --clean -o allure-report
+npx allure open allure-report
+
+Github open report:
+===================
 npx allure open allure-report

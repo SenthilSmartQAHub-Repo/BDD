@@ -11,7 +11,9 @@
     "format": [
       "html:reports/cucumber-report.html",
       "json:reports/cucumber-report.json",
-      "allure-cucumberjs/reporter"
+      "allure-cucumberjs/reporter",
+        "progress",
+      "summary"
     ],
     "publish": true,
     "parallel": 2,
